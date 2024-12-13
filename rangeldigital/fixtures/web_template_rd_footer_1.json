@@ -1,0 +1,84 @@
+{
+ "__unsaved": 1,
+ "creation": "2024-08-12 15:26:23.140620",
+ "docstatus": 0,
+ "doctype": "Web Template",
+ "fields": [
+
+	    {
+   "fieldname": "section_margin_top",
+   "fieldtype": "Data",
+   "label": "Margin-Top (Pixels)",
+   "reqd": 0
+  },
+  	    {
+   "fieldname": "heading",
+   "fieldtype": "Data",
+   "label": "Heading",
+   "reqd": 0
+  },
+  {
+   "fieldname": "sub_heading",
+   "fieldtype": "Data",
+   "label": "Sub-Heading",
+   "reqd": 0
+  },
+    {
+   "fieldname": "column_1_heading",
+   "fieldtype": "Data",
+   "label": "Column 1 Heading",
+   "reqd": 0
+  },
+  {
+   "fieldname": "column_1_links",
+   "fieldtype": "Table Break",
+   "label": "Column 1 Links",
+   "reqd": 0
+  },
+    {
+   "fieldname": "column_1_link_text",
+   "fieldtype": "Data",
+   "label": "Column 1 Link Text",
+   "reqd": 0
+  },
+      {
+   "fieldname": "column_1_link_url",
+   "fieldtype": "Data",
+   "label": "Column 1 Link URL",
+   "reqd": 0
+  },
+   {
+   "fieldname": "sb_1",
+   "fieldtype": "Section Break",
+   "label": "",
+   "reqd": 0
+  },
+   {
+   "fieldname": "column_2_links",
+   "fieldtype": "Table Break",
+   "label": "Column 2 Links",
+   "reqd": 0
+  },
+   {
+   "fieldname": "column_2_link_text",
+   "fieldtype": "Data",
+   "label": "Column 2 Link Text",
+   "reqd": 0
+  },
+   {
+   "fieldname": "column_2_link_url",
+   "fieldtype": "Data",
+   "label": "Column 2 Link URL",
+   "reqd": 0
+  }
+ ],
+ "idx": 0,
+ "modified": "2022-03-21 14:30:14.405261",
+ "modified_by": "Administrator",
+ "module": "Website",
+ "name": "RD Footer - 1",
+ "owner": "Administrator",
+ "standard": 0,
+  "template":"<footer class=\"footer-two-area secondary-bg\">\n\t<div class=\"footer__shape-regular-left wow slideInLeft\" data-wow-delay=\"00ms\" data-wow-duration=\"1500ms\">\n\t\t<img src=\"https://gratech.coevs.com/assets/general/images/BAQVgLnU7QvZtTJjG4Jh.png\" alt=\"shape\">\n\t</div>\n\t<div class=\"footer__shape-solid-left wow slideInLeft\" data-wow-delay=\"200ms\" data-wow-duration=\"1500ms\">\n\t\t<img class=\"sway_Y__animation\" src=\"https://gratech.coevs.com/assets/general/images/x8UL5jR65pUMjCNXZayT.png\" alt=\"shape\">\n\t</div>\n\t<div class=\"footer__shape-solid-right wow slideInRight\" data-wow-delay=\"00ms\" data-wow-duration=\"1500ms\">\n\t\t<img class=\"sway_Y__animation\" src=\"https://gratech.coevs.com/assets/general/images/NM5dHWi3A6tYT1Qwx1wy.png\" alt=\"shape\">\n\t</div>\n\t<div class=\"footer__shape-regular-right wow slideInRight\" data-wow-delay=\"200ms\" data-wow-duration=\"1500ms\">\n\t\t<img src=\"https://gratech.coevs.com/assets/general/images/UqVx6L4239ct7n3yeXfe.png\" alt=\"shape\">\n\t</div>\n\t<div class=\"footer__shadow-shape\">\n\t\t<img src=\"https://gratech.coevs.com/assets/general/images/Il3Ju0hJ6BFqI4lRFh62.png\" alt=\"shodow\">\n\t</div>\n\t<div class=\"container\">\n\t\t<div class=\"footer__wrp pt-100 pb-100\">\n\t\t\t<div class=\"footer__item item-big wow fadeInUp\" data-wow-delay=\"00ms\" data-wow-duration=\"1500ms\">\n\t\t\t\t<a href=\"https://gratech.coevs.com\" class=\"logo mb-30\">\n\t\t\t\t\t<img src=\"https://gratech.coevs.com/assets/general/images/wabOEMUHMOixz8ZLLGKX.png\" alt=\"image\">\n\t\t\t\t</a>\n\t\t\t\t<p>Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a lacinia curabitur lacinia mollis</p>\n\t\t\t\t<div class=\"social-icon\">\n\t\t\t\t\t\t<a href=\"#\" target=\"_blank\"><i class=\"fa-brands fa-facebook-f\"></i></a>\n\t\t\t\t\t\t<a href=\"#\" target=\"_blank\"><i class=\"fa-brands fa-twitter\"></i></a>\n\t\t\t\t\t\t<a href=\"#\" target=\"_blank\"><i class=\"fa-brands fa-linkedin-in\"></i></a>\n\t\t\t\t\t\t<a href=\"#\" target=\"_blank\"><i class=\"fa-brands fa-youtube\"></i></a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t<div class=\"footer__item item-sm wow fadeInUp\" data-wow-delay=\"200ms\" data-wow-duration=\"1500ms\">\n\t\t\t\t<h3 class=\"footer-title\">Our Services</h3>\n\t\t\t\t<ul>\n\t\t\t\t\t<li><a href=\"https://gratech.coevs.com/details/45\"><i\n\t\t\t\t\t\tclass=\"fa-regular fa-angles-right me-1\"></i> IT Management</a></li>\n\t\t\t\t\t<li><a href=\"https://gratech.coevs.com/details/46\"><i\n\t\t\t\t\t\tclass=\"fa-regular fa-angles-right me-1\"></i> Database Security</a></li>\n\t\t\t\t\t<li><a href=\"https://gratech.coevs.com/details/47\"><i\n\t\t\t\t\t\tclass=\"fa-regular fa-angles-right me-1\"></i> Cyber Security</a></li>\n\t\t\t\t\t<li><a href=\"https://gratech.coevs.com/details/64\"><i\n\t\t\t\t\t\tclass=\"fa-regular fa-angles-right me-1\"></i> IT Consultancy</a></li>\n\t\t\t\t\t<li><a href=\"https://gratech.coevs.com/details/65\"><i\n\t\t\t\t\t\tclass=\"fa-regular fa-angles-right me-1\"></i> App Development</a></li>\n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t\t\n\t\t\t<div class=\"footer__item item-sm wow fadeInUp\" data-wow-delay=\"200ms\" data-wow-duration=\"1500ms\">\n\t\t\t\t<h3 class=\"footer-title\">Quick Link</h3>\n\t\t\t\t<ul>\n\t\t\t\t\t<li><a href=\"/blog\" target=\"_self\"><i class=\"fa-regular fa-angles-right me-1\"></i> Blog</a></li>\n\t\t\t\t\t<li><a href=\"/about\" target=\"_self\"><i class=\"fa-regular fa-angles-right me-1\"></i> About</a></li>\n\t\t\t\t\t<li><a href=\"/contact\" target=\"_self\"><i class=\"fa-regular fa-angles-right me-1\"></i> Contact</a></li>\n\t\t\t\t\t<li><a href=\"/faq\" target=\"_self\"><i class=\"fa-regular fa-angles-right me-1\"></i> FAQ</a></li>\n\t\t\t\t\t<li><a href=\"https://gratech.coevs.com\" target=\"_self\"><i class=\"fa-regular fa-angles-right me-1\"></i> Home</a></li>\n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t\t\n\t\t\t<div class=\"footer__item item-big wow fadeInUp\" data-wow-delay=\"600ms\" data-wow-duration=\"1500ms\">\n\t\t\t\t<h3 class=\"footer-title\">Contact Us</h3>\n\t\t\t\t<p class=\"mb-20\">4517 Washington ave.</p>\n\t\t\t\t<ul class=\"footer-contact\">\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<i class=\"fa-regular fa-clock\"></i>\n\t\t\t\t\t\t<div class=\"info\">\n\t\t\t\t\t\t\t<h5>\n\t\t\t\t\t\t\t\tOpening Hours:\n\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t<p>Mon - Sat: 10.00 AM - 4.00 PM</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<i class=\"fa-duotone fa-phone\"></i>\n\t\t\t\t\t\t<div class=\"info\">\n\t\t\t\t\t\t\t<h5>\n\t\t\t\t\t\t\t\tPhone Call:\n\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t<p>+208-6666-0112, +308-5555-0113</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</li>\n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class=\"footer__copyright\">\n\t\t<div class=\"container\">\n\t\t\t<div\n\t\t\t\tclass=\"d-flex gap-1 flex-wrap align-items-center justify-content-md-between justify-content-center\">\n\t\t\t\t<p class=\"wow fadeInDown\" data-wow-delay=\"00ms\" data-wow-duration=\"1500ms\">&copy; All Copyright 2024 by <a href=\"https://gratech.coevs.com\">gratech</a></p>\n\t\t\t\t<ul class=\"d-flex align-items-center gap-4 wow fadeInDown\" data-wow-delay=\"200ms\"\n\t\t\t\t    data-wow-duration=\"1500ms\">\n\t\t\t\t\t<li><a href=\"/terms-condition\">Terms & Conditions</a></li>\n\t\t\t\t\t<li><a href=\"/privacy-policy\">Privacy Policy</a></li>\n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</footer>",
+  "type": "Footer"
+}

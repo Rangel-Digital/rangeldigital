@@ -1,0 +1,92 @@
+
+{
+ "__unsaved": 1,
+ "creation": "2024-08-12 15:26:23.140620",
+ "docstatus": 0,
+ "doctype": "Web Template",
+ "fields": [
+  {
+   "fieldname": "heading",
+   "fieldtype": "Data",
+   "label": "Heading",
+   "reqd": 0
+  },
+    {
+   "fieldname": "sub_heading",
+   "fieldtype": "Data",
+   "label": "Sub Heading",
+   "reqd": 0
+  },
+      {
+   "fieldname": "cta_text",
+   "fieldtype": "Data",
+   "label": "CTA Text",
+   "reqd": 0
+  },
+      {
+   "fieldname": "cta_url",
+   "fieldtype": "Data",
+   "label": "CTA URL",
+   "reqd": 0
+  },
+    {
+   "fieldname": "card_1_heading",
+   "fieldtype": "Data",
+   "label": "Card 1 Heading"
+  },
+
+      {
+   "fieldname": "card_1_text",
+   "fieldtype": "Text",
+   "label": "Card 1 Text"
+  },
+      {
+   "fieldname": "card_1_url",
+   "fieldtype": "Data",
+   "label": "Card 1 URL"
+  },
+    {
+   "fieldname": "card_2_heading",
+   "fieldtype": "Data",
+   "label": "Card 2 Heading"
+  },
+
+      {
+   "fieldname": "card_2_text",
+   "fieldtype": "Text",
+   "label": "Card 2 Text"
+  },
+      {
+   "fieldname": "card_2_url",
+   "fieldtype": "Data",
+   "label": "Card 2 URL"
+  },
+    {
+   "fieldname": "card_3_heading",
+   "fieldtype": "Data",
+   "label": "Card 3 Heading"
+  },
+      {
+   "fieldname": "card_3_text",
+   "fieldtype": "Text",
+   "label": "Card 3 Text"
+  },
+      {
+   "fieldname": "card_3_url",
+   "fieldtype": "Data",
+   "label": "Card 3 URL"
+  }
+     
+     
+
+ ],
+ "idx": 0,
+ "modified": "2022-03-21 14:30:14.405261",
+ "modified_by": "Administrator",
+ "module": "Website",
+ "name": "3 Cards Section - 1",
+ "owner": "Administrator",
+ "standard": 0,
+  "template":"<section class=\"service-area pt-120 pb-120\">\n\t<div class=\"service__shape wow slideInRight\">\n\t\t<img class=\"sway_Y__animation\" src=\"https://gratech.coevs.com/assets/general/images/pS7mPAStmiND1Ve9lyhJ.png\" alt=\"shape\">\n\t</div>\n\t<div class=\"container\">\n\t\t<div class=\"d-flex flex-wrap gap-4 align-items-center justify-content-between mb-60\">\n\t\t\t<div class=\"section-header\">\n\t\t\t\t<h5 class=\"wow fadeInLeft\" data-wow-delay=\"00ms\" data-wow-duration=\"1500ms\">\n\t\t\t\t\t<img class=\"me-1\" src=\"https://gratech.coevs.com/assets/general/images/4SyDa9CZNsdLzCr0qeip.png\" alt=\"icon\">\n\t\t\t\t\t{{sub_heading}}\n\t\t\t\t</h5>\n\t\t\t\t<h2 class=\"wow fadeInLeft\" data-wow-delay=\"200ms\" data-wow-duration=\"1500ms\"> {{heading}}</h2>\n\t\t\t</div>\n\t\t\t<a href=\"{{cta_url}}\" class=\"btn-one wow fadeInUp\" data-wow-delay=\"200ms\"\n\t\t\t   data-wow-duration=\"1500ms\">{{cta_text}} <i class=\"fa-regular fa-arrow-right-long\"></i></a>\n\t\t</div>\n\t\t<div class=\"row g-4\">\n\t\t\t\n\t\t\t\t<div class=\"col-lg-4 col-md-6 wow bounceInUp\" data-wow-delay=\"00ms\" data-wow-duration=\"1000ms\">\n\t\t\t\t\t<div class=\"service__item\">\n\t\t\t\t\t\t<div class=\"service-shape\">\n\t\t\t\t\t\t\t<img src=\"https://gratech.coevs.com/assets/general/images/rtHLHwS47ikrvM8funrY.png\" alt=\"shape\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"service__icon\">\n\t\t\t\t\t\t\t<img src=\"https://gratech.coevs.com/assets/general/images/jHK351Y6PazLmAgmyGJY.png\" alt=\"icon\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h4><a href=\"{{card_1_url}}\">{{card_1_heading}}</a></h4>\n\t\t\t\t\t\t<p>{{card_1_text}}</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class=\"col-lg-4 col-md-6 wow bounceInUp\" data-wow-delay=\"00ms\" data-wow-duration=\"1000ms\">\n\t\t\t\t\t<div class=\"service__item\">\n\t\t\t\t\t\t<div class=\"service-shape\">\n\t\t\t\t\t\t\t<img src=\"https://gratech.coevs.com/assets/general/images/rtHLHwS47ikrvM8funrY.png\" alt=\"shape\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"service__icon\">\n\t\t\t\t\t\t\t<img src=\"https://gratech.coevs.com/assets/general/images/jHK351Y6PazLmAgmyGJY.png\" alt=\"icon\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h4><a href=\"{{card_2_url}}\">{{card_2_heading}}</a></h4>\n\t\t\t\t\t\t<p>{{card_2_text}}</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class=\"col-lg-4 col-md-6 wow bounceInUp\" data-wow-delay=\"00ms\" data-wow-duration=\"1000ms\">\n\t\t\t\t\t<div class=\"service__item\">\n\t\t\t\t\t\t<div class=\"service-shape\">\n\t\t\t\t\t\t\t<img src=\"https://gratech.coevs.com/assets/general/images/rtHLHwS47ikrvM8funrY.png\" alt=\"shape\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"service__icon\">\n\t\t\t\t\t\t\t<img src=\"https://gratech.coevs.com/assets/general/images/jHK351Y6PazLmAgmyGJY.png\" alt=\"icon\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h4><a href=\"{{card_3_url}}\">{{card_3_heading}}</a></h4>\n\t\t\t\t\t\t<p>{{card_3_text}}</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t</div>\n\t</div>\n</section>",
+ "type": "Component"
+}

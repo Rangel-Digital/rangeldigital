@@ -1,0 +1,19 @@
+{
+ "__unsaved": 1,
+ "creation": "2024-08-13 15:26:23.140620",
+ "docstatus": 0,
+ "doctype": "Web Template",
+ "fields": [
+
+
+ ],
+ "idx": 0,
+ "modified": "2024-08-12 14:30:14.405261",
+ "modified_by": "Administrator",
+ "module": "Website",
+ "name": "RD Navbar - 1",
+ "owner": "Administrator",
+ "standard": 0,
+  "template":"<nav class=\"navbar  navbar-expand-lg header-two-area header__main\" style=\"background: linear-gradient(90deg, #0f0d1d -76.72%, #3c72fc 191.51%); border-bottom: none;min-height:80px\">\n\t<div class=\"container\">\n\t\t<a class=\"navbar-brand\" href=\"{{ url_prefix }}{{ home_page or \"/\" }}\">\n\t\t\t{%- if brand_html -%}\n\t\t\t\t{{ brand_html }}\n\t\t\t{%- elif banner_image -%}\n\t\t\t\t<img src='{{ banner_image }}'>\n\t\t\t{%- else -%}\n\t\t\t\t<span>{{ (frappe.get_hooks(\"brand_html\") or [_(\"Home\")])[0] }}</span>\n\t\t\t{%- endif -%}\n\t\t</a>\n\t\t<button class=\"navbar-toggler\" type=\"button\"\n\t\t\tdata-toggle=\"collapse\"\n\t\t\tdata-target=\"#navbarSupportedContent\"\n\t\t\taria-controls=\"navbarSupportedContent\"\n\t\t\taria-expanded=\"false\"\n\t\t\taria-label=\"Toggle navigation\">\n\t\t\t<span>\n\t\t\t\t<svg class=\"icon icon-lg\">\n\t\t\t\t\t<use href=\"#icon-menu\"></use>\n\t\t\t\t</svg>\n\t\t\t</span>\n\t\t</button>\n\n\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n\t\t\t{% include \"templates/includes/navbar/navbar_items.html\" %}\n\t\t</div>\n\t</div>\n</nav>",
+ "type": "Navbar"
+}

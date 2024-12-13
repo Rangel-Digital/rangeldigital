@@ -1,0 +1,48 @@
+{
+ "__unsaved": 1,
+ "creation": "2024-08-12 15:26:23.140620",
+ "docstatus": 0,
+ "doctype": "Web Template",
+ "fields": [
+
+  {
+   "fieldname": "slides",
+   "fieldtype": "Table Break",
+   "label": "Slides"
+  },
+    {
+   "fieldname": "slide_heading",
+   "fieldtype": "Data",
+   "label": "Heading"
+  },
+      {
+   "fieldname": "slide_sub_heading",
+   "fieldtype": "Data",
+   "label": "Sub Heading"
+  },
+      {
+   "fieldname": "slide_text",
+   "fieldtype": "Text",
+   "label": "Text"
+  },
+      {
+   "fieldname": "slide_cta_text",
+   "fieldtype": "Data",
+   "label": "CTA Text"
+  },
+      {
+   "fieldname": "slide_cta_url",
+   "fieldtype": "Data",
+   "label": "CTA URL"
+  }
+ ],
+ "idx": 0,
+ "modified": "2022-03-21 14:30:14.405261",
+ "modified_by": "Administrator",
+ "module": "Website",
+ "name": "Banner Slider - 1",
+ "owner": "Administrator",
+ "standard": 0,
+  "template":"<section class=\"banner-two-area\">\n\t<div class=\"banner-two__line\">\n\t\t<img class=\"sway_Y__animation\" src=\"https://gratech.coevs.com/assets/general/images/H3wcidxsCpOM8SQ274ax.png\" alt=\"shape\">\n\t</div>\n\t<div class=\"swiper banner__slider\">\n\t\t<div class=\"swiper-wrapper\">\n\t\t\t{% for slide in slides %}\n\t\t\t\t<div class=\"swiper-slide\">\n\t\t\t\t\t<div class=\"banner-two__line-left\" data-animation=\"slideInLeft\" data-duration=\"3s\"\n\t\t\t\t\t\t data-delay=\".3s\">\n\t\t\t\t\t\t\t<img src=\"https://gratech.coevs.com/assets/general/images/wfHxFfHI2xI62jsg25EB.png\" alt=\"shape\">\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"banner-two__shape2\" data-animation=\"slideInRight\" data-duration=\"2s\"\n\t\t\t\t\t\t data-delay=\".3s\">\n\t\t\t\t\t\t\t<img src=\"https://gratech.coevs.com/assets/general/images/yiFCdKB5ZG4m35GZ0Vg2.png\" alt=\"shape\">\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"banner-two__shape1\" data-animation=\"slideInRight\" data-duration=\"2s\"\n\t\t\t\t\t\t data-delay=\".5s\">\n\t\t\t\t\t\t\t<img src=\"https://gratech.coevs.com/assets/general/images/Gi5hMdVOGMK903R0o2yl.png\" alt=\"shape\">\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"banner-two__right-shape wow slideInRight\" data-wow-delay=\"200ms\"\n\t\t\t\t\t\t data-wow-duration=\"1500ms\">\n\t\t\t\t\t\t\t<img class=\"sway_Y__animation\" src=\"https://gratech.coevs.com/assets/general/images/bmaBGRE1VRPceZFzP0ub.png\"\n\t\t\t\t\t\t\t alt=\"shape\">\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"banner-two__circle-solid\">\n\t\t\t\t\t\t<img class=\"animation__rotate\" src=\"https://gratech.coevs.com/assets/general/images/BngX6ulmrpt2BkKgdNro.png\"\n\t\t\t\t\t\t alt=\"shape\">\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"banner-two__circle-regular\">\n\t\t\t\t\t\t<img class=\"animation__rotateY\" src=\"https://gratech.coevs.com/assets/general/images/cCUaHj29ZjMF6SpR75iX.png\"\n\t\t\t\t\t\t alt=\"shape\">\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"slide-bg\" data-background=\"https://gratech.coevs.com/assets/general/images/oqHE2iP4cXY8TaoRsUfO.jpg\"></div>\n\t\t\t\t\t<div class=\"container\">\n\t\t\t\t\t\t<div class=\"banner-two__content text-center\">\n\t\t\t\t\t\t\t<h4 data-animation=\"fadeInUp\" data-delay=\".3s\" class=\"text-white mb-20\">\n\t\t\t\t\t\t\t\t{{slide.slide_sub_heading}}\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<h1 data-animation=\"fadeInUp\" data-delay=\".5s\" class=\"text-white\">\n\t\t\t\t\t\t\t\t{{slide.slide_heading}}\n\t\t\t\t\t\t\t</h1>\n\t\t\t\t\t\t\t<p data-animation=\"fadeInUp\" data-delay=\".7s\" class=\"mt-20\">\n\t\t\t\t\t\t\t\t{{slide.slide_text}}\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<a data-animation=\"fadeInUp\" data-delay=\"1s\" href=\"{{slide.slide_cta_url}}\"\n\t\t\t\t\t\t\t   class=\"btn-one mt-50\">{{slide.slide_cta_text}} <i class=\"fa-regular fa-arrow-right-long\"></i></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t{% endfor %}\n\t\t</div>\n\t</div>\n\t<div class=\"banner__dot-wrp banner-two__dot-wrp\">\n\t\t<div class=\"dot-light banner__dot\"></div>\n\t</div>\n</section>",
+ "type": "Component"
+}

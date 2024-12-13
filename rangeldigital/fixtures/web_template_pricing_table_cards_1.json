@@ -1,0 +1,33 @@
+	[
+
+
+{
+ "__unsaved": 1,
+ "creation": "2024-08-12 15:26:23.140620",
+ "docstatus": 0,
+ "doctype": "Web Template",
+ "fields": [
+  {
+   "fieldname": "heading",
+   "fieldtype": "Data",
+   "label": "Heading",
+   "reqd": 0
+  },
+    {
+   "fieldname": "sub_heading",
+   "fieldtype": "Data",
+   "label": "Sub Heading",
+   "reqd": 0
+  }
+
+ ],
+ "idx": 0,
+ "modified": "2022-03-21 14:30:14.405261",
+ "modified_by": "Administrator",
+ "module": "Website",
+ "name": "Pricing Table Cards - 1",
+ "owner": "Administrator",
+ "standard": 0,
+  "template":"<section class=\"pricing-area pt-120 pb-120\">\n\t<div class=\"pricing__shape-up wow slideInLeft d-none d-sm-block\" data-wow-delay=\"00ms\"\n\t\t data-wow-duration=\"1500ms\">\n\t\t<img class=\"sway_Y__animationY\" src=\"https://gratech.coevs.com/assets/general/images/F9ERm7kxz8BqP3sWhayl.png\" alt=\"image\">\n\t</div>\n\t<div class=\"pricing__shape-down wow slideInLeft d-none d-sm-block\" data-wow-delay=\"200ms\"\n\t\t data-wow-duration=\"1500ms\">\n\t\t<img class=\"sway_Y__animation\" src=\"https://gratech.coevs.com/assets/general/images/ujWFzGo4uZfMcrs0BWCi.png\" alt=\"image\">\n\t</div>\n\t<div class=\"pricing__shape\">\n\t\t<img class=\"sway_Y__animationY\" src=\"https://gratech.coevs.com/assets/general/images/a7aszCO6zq4r2Kf5SSH4.png\" alt=\"image\">\n\t</div>\n\t<div class=\"container\">\n\t\t<div class=\"section-header text-center mb-60\">\n\t\t\t<h5 class=\"wow fadeInUp\" data-wow-delay=\"00ms\" data-wow-duration=\"1500ms\">\n\t\t\t\t<img class=\"me-1\" src=\"https://gratech.coevs.com/assets/general/images/9p0NsXiK0MM6qWJspWtg.png\" alt=\"icon\">\n\t\t\t\tPRICE PLANS\n\t\t\t</h5>\n\t\t\t<h2 class=\"wow fadeInUp\" data-wow-delay=\"200ms\" data-wow-duration=\"1500ms\">\n\t\t\t\tFlexible Pricing Plans\n\t\t\t</h2>\n\t\t</div>\n\t\t<div class=\"row g-4\">\n\t\t\t<div class=\"col-xl-4 col-lg-6 col-md-6 wow fadeInUp\" data-wow-delay=\"000ms\"\n\t\t\t\t data-wow-duration=\"1500ms\">\n\t\t\t\t<div class=\"pricing__item\">\n\t\t\t\t\t<div class=\"item-shape\">\n\t\t\t\t\t\t<img src=\"https://gratech.coevs.com/assets/general/images/ry8sfPQzETBWsELDO8tq.png\" alt=\"shape\">\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"pricing-head\">\n\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t<h4 class=\"text-white mb-10\">Basic Plan</h4>\n\t\t\t\t\t\t\t<h2>$39<span>/Monthly</span></h2>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"pricing-icon\" data-background=\"https://gratech.coevs.com/assets/general/static/pricing-icon-bg.png\">\n\t\t\t\t\t\t\t<img src=\"https://gratech.coevs.com/assets/general/images/471fmTeH0V5mO4PYh25e.png\" alt=\"icon\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<ul>\n\t\t\t\t\t\t<li>Free 1 5 GB Linux Hosting</li>\n\t\t\t\t\t\t<li>Dedicated Tech Experts</li>\n\t\t\t\t\t\t<li>24/7 System Monitoring</li>\n\t\t\t\t\t\t<li>Security Management</li>\n\t\t\t\t\t\t<li>Unlimited Download</li>\n\t\t\t\t\t</ul>\n\t\t\t\t\t<a href=\"/contact\" class=\"btn-one d-block text-center\">choose Plan <i\n\t\t\t\t\t\t\t\tclass=\"fa-regular fa-arrow-right-long\"></i></a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"col-xl-4 col-lg-6 col-md-6 wow fadeInUp\" data-wow-delay=\"100ms\"\n\t\t\t\t data-wow-duration=\"1500ms\">\n\t\t\t\t<div class=\"pricing__item\">\n\t\t\t\t\t<div class=\"item-shape\">\n\t\t\t\t\t\t<img src=\"https://gratech.coevs.com/assets/general/images/q9w0hWGWA6xyEbi5avyw.png\" alt=\"shape\">\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"pricing-head\">\n\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t<h4 class=\"text-white mb-10\">Standard Plan</h4>\n\t\t\t\t\t\t\t<h2>$59<span>/Monthly</span></h2>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"pricing-icon\" data-background=\"https://gratech.coevs.com/assets/general/static/pricing-icon-bg.png\">\n\t\t\t\t\t\t\t<img src=\"https://gratech.coevs.com/assets/general/images/V548oCczTjtTOrBqs7m5.png\" alt=\"icon\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<ul>\n\t\t\t\t\t\t<li>Free 1 5 GB Linux Hosting</li>\n\t\t\t\t\t\t<li>Dedicated Tech Experts</li>\n\t\t\t\t\t\t<li>24/7 System Monitoring</li>\n\t\t\t\t\t\t<li>Security Management</li>\n\t\t\t\t\t\t<li>Unlimited Download</li>\n\t\t\t\t\t</ul>\n\t\t\t\t\t<a href=\"/contact\" class=\"btn-one d-block text-center\">choose Plan <i\n\t\t\t\t\t\t\t\tclass=\"fa-regular fa-arrow-right-long\"></i></a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"col-xl-4 col-lg-6 col-md-6 wow fadeInUp\" data-wow-delay=\"200ms\"\n\t\t\t\t data-wow-duration=\"1500ms\">\n\t\t\t\t<div class=\"pricing__item\">\n\t\t\t\t\t<div class=\"item-shape\">\n\t\t\t\t\t\t<img src=\"https://gratech.coevs.com/assets/general/images/effBZTwpwDwdAM5fssPf.png\" alt=\"shape\">\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"pricing-head\">\n\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t<h4 class=\"text-white mb-10\">Premium Plan</h4>\n\t\t\t\t\t\t\t<h2>$79<span>/Monthly</span></h2>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"pricing-icon\" data-background=\"https://gratech.coevs.com/assets/general/static/pricing-icon-bg.png\">\n\t\t\t\t\t\t\t<img src=\"https://gratech.coevs.com/assets/general/images/fcaBYj2VZKiZ7yCDE0Hh.png\" alt=\"icon\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<ul>\n\t\t\t\t\t\t<li>Free 500 GB Linux Hosting</li>\n\t\t\t\t\t\t<li>Dedicated Tech Experts</li>\n\t\t\t\t\t\t<li>24/7 System Monitoring</li>\n\t\t\t\t\t\t<li>Security Management</li>\n\t\t\t\t\t\t<li>Unlimited Download</li>\n\t\t\t\t\t</ul>\n\t\t\t\t\t<a href=\"/contact\" class=\"btn-one d-block text-center\">choose Plan <i\n\t\t\t\t\t\t\t\tclass=\"fa-regular fa-arrow-right-long\"></i></a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+ "type": "Component"
+}]

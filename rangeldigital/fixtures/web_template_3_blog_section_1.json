@@ -1,0 +1,30 @@
+{
+ "__unsaved": 1,
+ "creation": "2024-08-12 15:26:23.140620",
+ "docstatus": 0,
+ "doctype": "Web Template",
+ "fields": [
+  {
+   "fieldname": "heading",
+   "fieldtype": "Data",
+   "label": "Heading",
+   "reqd": 0
+  },
+    {
+   "fieldname": "sub_heading",
+   "fieldtype": "Data",
+   "label": "Sub Heading",
+   "reqd": 0
+  }
+
+ ],
+ "idx": 0,
+ "modified": "2024-08-12 14:30:14.405261",
+ "modified_by": "Administrator",
+ "module": "Website",
+ "name": "3 Blog Section - 1",
+ "owner": "Administrator",
+ "standard": 0,
+  "template":"<section class=\"blog-area pt-120 pb-120\">\n\t<div class=\"container\">\n\t\t<div class=\"section-header text-center mb-60\">\n\t\t\t<h5 class=\"wow fadeInUp\" data-wow-delay=\"00ms\" data-wow-duration=\"1500ms\">\n\t\t\t\t<img class=\"me-1\" src=\"https://gratech.coevs.com/assets/general/images/8CWx8hxBlsFPblsrbKXm.png\" alt=\"icon\">\n\t\t\t\t{{sub_heading}}\n\t\t\t</h5>\n\t\t\t<h2 class=\"wow fadeInUp\" data-wow-delay=\"200ms\" data-wow-duration=\"1500ms\"> {{heading}} </h2>\n\t\t</div>\n\t\t<div class=\"row g-4\">\n\t\t   {% set blogs =   frappe.get_all('Blog Post',filters={'published':1}, fields=[\"*\"], order_by='',page_length=3) %}\n\t\t    {% for blog in blogs %}\n\t\t\t <div class=\"col-xl-4 col-lg-6 col-md-6 wow fadeInUp\" data-wow-delay=\"100ms\"\n\t\t\t data-wow-duration=\"1500ms\">\n\t\t\t\t<div class=\"blog__item\">\n\t\t\t\t\t<a href=\"https://gratech.coevs.com/blog/keep-your-business-safe-ensure-high-availability\" class=\"blog__image d-block image\">\n\t\t\t\t\t\t<img class=\"component-blog-cover\" src=\"https://gratech.coevs.com/assets/general/images/x9Rjxh5b3w3Z3HhdpJ7a.jpg\" alt=\"image\">\n\t\t\t\t\t\t<div class=\"blog-tag\">\n\t\t\t\t\t\t\t<h3 class=\"text-white\">{{blog.published_on.strftime(\"%d\")}}</h3>\n\t\t\t\t\t\t\t<span class=\"text-white\">{{blog.published_on.strftime(\"%b\")}}</span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t\t<div class=\"blog__content\">\n\t\t\t\t\t\t<ul class=\"blog-info\" style=\"margin-bottom:20px;padding-bottom:20px\">\n\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\"\n\t\t\t\t\t\t\t\t xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t\t\t\t<path\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\td=\"M14.5436 5.19275C14.5436 7.69093 12.499 9.7355 10.0008 9.7355C7.50268 9.7355 5.45811 7.69093 5.45811 5.19275C5.45811 2.69457 7.50264 0.65 10.0008 0.65C12.499 0.65 14.5436 2.69458 14.5436 5.19275Z\"\n\t\t\t\t\t\t\t\t\tstroke=\"#3C72FC\" stroke-width=\"1.3\" />\n\t\t\t\t\t\t\t\t<path\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\td=\"M18.2644 14.6706C18.1052 14.9458 17.9241 15.2073 17.7169 15.4766L17.7168 15.4765L17.7089 15.4873C17.4204 15.8788 17.0845 16.2373 16.7295 16.5924C16.4326 16.8892 16.0933 17.186 15.7568 17.4385C14.0794 18.6911 12.0622 19.3499 9.97818 19.3499C7.8984 19.3499 5.8851 18.6938 4.2098 17.4461C3.84591 17.1504 3.51371 16.8792 3.2269 16.5924L3.21993 16.5854L3.21276 16.5787C2.85667 16.2436 2.54242 15.8877 2.24749 15.4874L2.24751 15.4873L2.24417 15.4829C2.06196 15.24 1.87324 14.9756 1.71923 14.7169C1.83622 14.4559 1.98458 14.1847 2.14525 13.9526L2.14536 13.9527L2.15288 13.9413C3.06988 12.5556 4.53709 11.6388 6.16646 11.4148L6.18604 11.4121L6.20542 11.4082C6.2309 11.4031 6.29498 11.4117 6.34551 11.4496L6.3455 11.4496L6.34951 11.4525C7.41654 12.2401 8.68633 12.6453 10.0008 12.6453C11.3153 12.6453 12.5851 12.2401 13.6522 11.4525L13.6522 11.4525L13.6562 11.4496C13.6716 11.438 13.7404 11.408 13.8492 11.4167C15.4689 11.6435 16.9121 12.5568 17.8525 13.9468L17.8524 13.9469L17.8564 13.9526C18.0166 14.1839 18.1557 14.4231 18.2644 14.6706Z\"\n\t\t\t\t\t\t\t\t\tstroke=\"#3C72FC\" stroke-width=\"1.3\" />\n\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t<span>{% set author = frappe.get_doc('Blogger',blog.blogger ) %}{{author.name}}</span>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t<h3><a href=\"{{blog.route}}\" class=\"primary-hover\">{{blog.title}}</a></h3>\n\t\t\t\t\t\t<a class=\"mt-25 read-more-btn\" href=\"{{blog.route}}\">Read More <i\n\t\t\t\t\t\t\t\tclass=\"fa-regular fa-arrow-right-long\"></i></a>\n\t\t\t\t\t</div></div></div>\n\t\t    {% endfor %}\n\t\t</div>\n\t</div>\n</section>",
+ "type": "Component"
+}
