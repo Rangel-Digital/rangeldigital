@@ -8,7 +8,7 @@
 	    {
    "fieldname": "section_margin_top",
    "fieldtype": "Data",
-   "label": "Margin-Top (Pixels)",
+   "label": "Margin-Top Pixels",
    "reqd": 0
   },
   	    {
